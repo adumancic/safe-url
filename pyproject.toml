@@ -1,0 +1,15 @@
+[project]
+name = "safe-url"
+version = "0.3.1"
+description = "Tiny, dependency-free URL validation to prevent SSRF"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
